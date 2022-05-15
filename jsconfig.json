@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "@pages": ["./pages/index.js"],
+      "@pages/*": ["./pages/*"],
+      "@components": ["./src/components/index.js"],
+      "@components/*": ["./src/components/*"],
+      "@context": ["./src/context/index.js"],
+      "@context/*": ["./src/context/*"],
+      "@shopify": ["./src/shopify/index.js"],
+      "@shopify/*": ["./src/shopify/*"],
+      "@utils": ["./src/utils/index.js"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
